@@ -23,7 +23,7 @@ describe('test/tar/security-GHSA-cc8f-xg8v-72m3.test.js', () => {
   /**
    * Helper function to create a TAR buffer with given entries
    * @param {Array<{name: string, type?: string, linkname?: string, content?: string}>} entries
-   * @returns {Promise<Buffer>}
+   * @return {Promise<Buffer>}
    */
   function createTarBuffer(entries) {
     return new Promise((resolve, reject) => {
