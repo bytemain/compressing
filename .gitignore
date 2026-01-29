@@ -6,5 +6,6 @@ test/fixtures/types/*.js
 test/fixtures/chinese-path-test.zip
 .DS_Store
 yarn.lock
+package-lock.json
 !test/fixtures/symlink/node_modules
 pnpm-lock.yaml
